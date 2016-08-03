@@ -4,7 +4,9 @@
 
 Display the new Facebook Messenger 2016 in a window
 
-Tested & work on Linux Mint 2016
+Tested & work on Linux Mint 18
+
+Created with QtCreator [https://www.qt.io/](https://www.qt.io/)
 
 ## Availability
 
