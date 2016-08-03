@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Facebook Messenger</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>messenger.png</normaloff>messenger.png</iconset>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QWebView" name="webView">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="url" stdset="0">
+    <string>https://www.messenger.com</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
